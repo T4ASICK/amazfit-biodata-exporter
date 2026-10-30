@@ -1,0 +1,17 @@
+{
+  "name": "biodata-exporter",
+  "version": "1.0.0",
+  "description": "Export Zepp OS health and activity metrics to Telegram or a custom HTTP endpoint",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tchasick",
+  "license": "MIT",
+  "devDependencies": {
+    "@zeppos/device-types": "^3.0.0"
+  },
+  "dependencies": {
+    "@zeppos/zml": "^0.0.38"
+  }
+}
